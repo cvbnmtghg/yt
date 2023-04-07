@@ -11,9 +11,12 @@
 			<label for="url">Enter YouTube Video URL:</label>
 			<input type="text" id="url" name="url" required>
 			<label for="quality">Select Quality:</label>
-			<select id="quality" name="quality" required>
-				<option value="" disabled selected>Select Quality</option>
-			</select>
+			<select name="quality" id="quality">
+            <option value="720p">720p</option>
+            <option value="480p">480p</option>
+            <option value="360p">360p</option>
+            <option value="240p">240p</option>
+        </select><br><br>
 			<button type="submit">Download</button>
 		</form>
 	</div>
